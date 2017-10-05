@@ -1,0 +1,12 @@
+function isValidCar() {//creamos funcion
+  var tarjeta = prompt("Ingrese su numero de tarjeta");//definimos prompt por medio de la variable
+  var arr = [];//varible que contiene array vacio
+  if (tarjeta !== []) {//si tarjeta es diferente de [] vacio
+    return tarjeta.split('').reverse().join('');//retorna conviertiendo tarjeta en array , revierte el orden y junto todos los elemntos de un array en una cadena.
+  }
+for (var i = 0; i >=10; i++) {
+  if (i % 2 === 0) {
+    arr[i] = arr[i] * 2;
+  }
+}
+}
